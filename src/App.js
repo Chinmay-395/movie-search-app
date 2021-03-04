@@ -1,10 +1,10 @@
 import "./App.css";
-import SearchMovie from "./searchMovie";
+import SearchMovies from "./searchMovie";
 function App() {
   return (
     <div className="container">
       <h1 className="title">React Movie Search</h1>
-      <SearchMovie />
+      <SearchMovies />
     </div>
   );
 }

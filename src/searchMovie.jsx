@@ -1,8 +1,10 @@
 import React from "react";
 
-function searchMovie() {
+function SearchMovies() {
+  const searchMovies = async () => {};
+
   return (
-    <form className="form">
+    <form className="form" onSubmit={searchMovies}>
       <label className="label" htmlFor="query">
         Movie Name
       </label>
@@ -19,4 +21,4 @@ function searchMovie() {
   );
 }
 
-export default searchMovie;
+export default SearchMovies;
